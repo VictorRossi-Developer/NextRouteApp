@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NextRoute" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">#18224A</item>
+        <item name="android:navigationBarColor">#F7F8FC</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#F7F8FC</item>
+    </style>
+
+    <style name="Theme.NextRoute.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/next_route_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_transparent_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/next_route_background</item>
+        <item name="windowSplashScreenAnimationDuration">1</item>
+        <item name="android:statusBarColor">#F7F8FC</item>
+        <item name="android:navigationBarColor">#F7F8FC</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="postSplashScreenTheme">@style/Theme.NextRoute</item>
+    </style>
+</resources>

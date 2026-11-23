@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="next_route_navy">#18224A</color>
+    <color name="next_route_blue">#3B6FE8</color>
+    <color name="next_route_light_blue">#EDF3FF</color>
+    <color name="next_route_light_purple">#F0F1FA</color>
+    <color name="next_route_text">#182033</color>
+    <color name="next_route_gray">#788196</color>
+    <color name="next_route_light_gray">#F1F3F8</color>
+    <color name="next_route_yellow">#FFD36A</color>
+    <color name="next_route_background">#F7F8FC</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

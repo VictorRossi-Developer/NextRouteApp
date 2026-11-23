@@ -1,0 +1,16 @@
+NextRoute — módulo Android app completo
+
+Este ZIP contém a pasta app/ pronta para substituir a pasta app/ do seu projeto Android Studio.
+
+O módulo inclui as telas completas, o quiz, navegação, dados locais, tema com a paleta original, Splash Screen, manifesto, recursos e ícone adaptativo redondo.
+
+Como aplicar:
+1. Faça uma cópia de segurança da pasta app atual.
+2. Extraia este ZIP na raiz do projeto Android Studio.
+3. Confirme a substituição da pasta app existente.
+4. No Android Studio, execute File > Sync Project with Gradle Files.
+5. Depois execute Build > Rebuild Project.
+
+Mantenha os arquivos de configuração da raiz do projeto (settings.gradle.kts, build.gradle.kts, gradle/ e gradlew).
+
+A splash Compose é exibida após a splash de inicialização do Android, usando a identidade original do NextRoute. O ícone de launcher continua disponível na tela inicial do dispositivo, mas não é usado como imagem principal da splash do sistema.
